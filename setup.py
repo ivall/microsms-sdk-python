@@ -4,7 +4,7 @@ setup(
     name='microsms_sdk',
     author='ivall',
     author_email='ivallpl@gmail.com',
-    install_requires=['requests', 'hashlib'],
+    install_requires=['requests'],
     version='1.0',
     description='Simple microsms api wrapper in python.',
     long_description=open('README.md').read(),
