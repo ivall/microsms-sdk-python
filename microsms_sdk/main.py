@@ -1,7 +1,7 @@
 import requests
 import hashlib
 
-from utils import check_payment_status, validate_code
+from .utils import check_payment_status, validate_code
 
 
 class Microsms:
