@@ -16,7 +16,7 @@ Utworzenie instancji pozwoli na generowanie płatności.
 client = Microsms()
 ```
 ### Płatność SMS
-Do sprwadzenia kodu SMS potrzebujemy 3 parametrów, które są opisane w dokumentacji microsms: https://microsms.pl/kernel/Mails/files/dokumentacja_techniczna_mirosms.pdf.
+Do sprawdzenia kodu SMS potrzebujemy 3 parametrów, które są opisane w dokumentacji microsms: https://microsms.pl/kernel/Mails/files/dokumentacja_techniczna_mirosms.pdf.
 Przykład:
 ```python
 sms_payment = client.sms(user_id, service_id, code)
