@@ -1,6 +1,6 @@
 import re
 
-from exceptions import *
+from .exceptions import *
 
 
 def validate_code(code):
