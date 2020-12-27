@@ -3,7 +3,7 @@
 ## dokumentacja
 
 #### Instalacja biblioteki
-Bibliotekę instalujemy poprzez polecenie ```pip install git+https://github.com/ivall/lvlup-sdk-python#egg=lvluppayments```
+Bibliotekę instalujemy poprzez polecenie ```pip install git+https://github.com/ivall/microsms-sdk-python#egg=microsms_sdk```
 
 #### Importowanie biblioteki
 Aby skorzystać z biblioteki importujemy klasę Microsms.
