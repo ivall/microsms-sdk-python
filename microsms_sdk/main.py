@@ -33,5 +33,5 @@ class Microsms:
             'description': description
         }
 
-        r = requests.get('https://microsms.pl/api/bankTransfer', params=payload).url
+        r = requests.get(self.base_url+'bankTransfer', params=payload).url
         return r
