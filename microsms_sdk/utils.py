@@ -2,10 +2,9 @@ import re
 
 from .exceptions import *
 
+pattern = re.compile("^[A-Za-z0-9]{8}$")
 
 def validate_code(code):
-    pattern = re.compile("^[A-Za-z0-9]{8}$")
-
     if not pattern.match(code):
         raise WrongCodeFormat("The code does not match with regex.")
 
