@@ -11,7 +11,7 @@ Aby skorzystać z biblioteki importujemy klasę Microsms.
 from microsms_sdk.main import Microsms
 ```
 ### Tworzenie instancji
-Utworzenie instancji pozwoli na generowanie płatności.
+Utworzenie instancji klasy Microsms pozwoli na generowanie płatności.
 ```python
 client = Microsms()
 ```
@@ -21,7 +21,7 @@ Przykład:
 ```python
 sms_payment = client.sms(user_id, service_id, code)
 ```
-Metoda sms zawsze zwraca boola, czyli True albo False.
+Metoda sms zawsze zwraca boola.
 
 ### Płatność przelewem
 ```python
